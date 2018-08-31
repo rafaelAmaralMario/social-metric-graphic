@@ -20,7 +20,7 @@ $ git clone https://github.com/rafaelAmaralMario/social-metric-graphic.git
 $ cd social-metric-graphic
 
 # Install dependencies of server and client
-$ npm run install-app
+$ npm run install-project
 
 # Run the app
 $ npm run dev

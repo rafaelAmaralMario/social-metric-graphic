@@ -4,10 +4,13 @@
   "description": "Project in Node.Js and Vue.js that will display a Graphic getting the values from a Rest API.",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node index.js",
+    "start": "cross-env NODE_ENV=production node index.js",
     "run-server": "nodemon index.js",
     "run-client": "cd client && npm run dev",
-    "dev": "concurrently --kill-others-on-fail \"npm run run-server\" \"npm run run-client\""
+    "dev": "concurrently --kill-others-on-fail \"npm run run-server\" \"npm run run-client\"",
+    "install-client" : "cd client && npm i",
+    "install-server" : "npm i",
+    "install-project": "npm run install-server && npm run install-client"
   },
   "repository": {
     "type": "git",
@@ -31,11 +34,11 @@
     "express": "^4.16.3",
     "fs": "0.0.1-security",
     "install": "^0.12.1",
-    "node-fetch": "^2.2.0",
     "npm": "^6.4.1"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "cross-env": "^5.0.5"
   }
 }
