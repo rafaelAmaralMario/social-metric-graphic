@@ -6,4 +6,3 @@ const server = express.Router()
 routes(server);
 
 module.exports = server
-

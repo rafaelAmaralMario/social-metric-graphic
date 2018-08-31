@@ -1,2 +1,2 @@
-import * as Server from './server'
-export default { Server }
+import * as SERVER from './server'
+export default { SERVER }

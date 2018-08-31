@@ -6,12 +6,13 @@ const controller = {}
 controller.getData = (req, res) => {
   try {
     // Get content from file
-    var contents = fs.readFileSync("./resource/json/get_metrics.json");
+    const contents = fs.readFileSync("./resource/json/get_metrics.json");
     // Define to JSON type
-    var response = JSON.parse(contents);    
-    return res.status(200).json(response);
+    const response = JSON.parse(contents);    
+    return res.json(response);
   } catch (error) {
-    return res.status(404).json({
+    res.statusCode = 500;
+    return res.json({
       message: "failed to getting data from json file",
       error: error
     })  
