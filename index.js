@@ -15,6 +15,8 @@ const app = express()
 // mapping the modules
 app.use(server)
 app.use(client)
+app.use(express.static(__dirname +'/resource'));
+console.log((__dirname +'resource'))
 
 // informing to the app on which port the server must be executed
 app.listen(PORT, () => console.log(`Listening  on PORT ${PORT}`))

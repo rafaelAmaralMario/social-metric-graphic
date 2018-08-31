@@ -7,5 +7,3 @@ router.use(express.static('/../../resource'));
 router.get('/getSocialMetricData', controllers.SocialMetricControl.getData)
 
 module.exports = app => app.use('/api', router)
-
-
