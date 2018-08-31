@@ -1,8 +1,6 @@
 <template>
-  <div class="home">
-    Welcome to the PROJECT
-    <button @click="fetchData()">BUTTON</button>
-    <p> {{ graphicData }}</p>
+  <div class="highchart">
+    HIIIIIIIIIIIII
   </div>
 </template>
 
@@ -11,7 +9,7 @@ import request from '@/helpers/request'
 import constants  from '@/constants'
 
 export default {
-  name: 'home',
+  name: 'highchart',
   data() {
     return {
       graphicData : {}

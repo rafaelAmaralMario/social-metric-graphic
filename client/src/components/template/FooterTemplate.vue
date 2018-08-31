@@ -1,8 +1,6 @@
 <template>
   <div>
     FOOTER
-
-
   </div>
 </template>
 
@@ -12,6 +10,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+div{
+    min-height: 10vh;
 
+}
 </style>
