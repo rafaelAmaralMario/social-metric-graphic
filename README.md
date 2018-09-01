@@ -61,7 +61,7 @@ npm run install-client
 npm run install-server
 ```
 
-After that you will need to run the server to the access the project.   
+After that, you will need to run the server to access the project.   
 
 # Command to run the server
 ```
@@ -87,7 +87,7 @@ After that will be created the **dist** folder, inside the client folder, with t
 To run the server in production you will need to start the server with production settings 
 # Command to run the server in production
 ```
-npm start
+npm run build
 ```
 
 ## Built With
