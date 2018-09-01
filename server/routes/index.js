@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-
+// exporting all controllers of folder in this directory
 module.exports = app => {
   fs
     .readdirSync(path.resolve(__dirname))
