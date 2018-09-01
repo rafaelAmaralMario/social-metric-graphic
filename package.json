@@ -10,7 +10,7 @@
     "dev": "concurrently --kill-others-on-fail \"npm run run-server\" \"npm run run-client\"",
     "install-client": "cd client && npm i && cd..",
     "install-server": "npm i",
-    "install-project": "npm run npm run install-client && install-server",
+    "install-project": "npm run install-client && npm run install-server",
     "build": "cd client && npm run build"
   },
   "repository": {
@@ -35,7 +35,9 @@
     "express": "^4.16.3",
     "fs": "0.0.1-security",
     "install": "^0.12.1",
-    "npm": "^6.4.1"
+    "npm": "^6.4.1",
+    "webpack": "^4.17.1",
+    "webpack-dev-server": "^3.1.7"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",

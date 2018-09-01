@@ -1,6 +1,8 @@
 <template>
-  <div>
-    FOOTER
+  <div class="footer">
+    <div class="container">
+      <P>Developed by Rafael Do Amaral Mario. </P>
+    </div>
   </div>
 </template>
 
@@ -11,8 +13,14 @@ export default {
 </script>
 
 <style scoped>
-div{
-    min-height: 10vh;
 
-}
+  .footer {
+    background-color: #1D6FCA;
+    margin-top: 2vh;
+    min-height: 6vh;
+  }
+  .container p {
+    flex: 1 auto;
+    align-self: flex-end;
+  }
 </style>

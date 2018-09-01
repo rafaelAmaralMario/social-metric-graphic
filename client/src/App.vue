@@ -23,5 +23,12 @@ export default {
 </script>
 
 <style>
-
+  .container {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFF;
+    padding: 0 20px;
+  }
 </style>

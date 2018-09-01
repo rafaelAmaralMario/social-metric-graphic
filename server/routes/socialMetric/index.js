@@ -11,7 +11,6 @@ router.use(bodyParser.json())
 router.use(bodyParser.urlencoded({ extended: true }))
 // setting headers to the API request.
 router.use(function (req, res, next) {
-    console.log('PASSANDO')
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Credentials", "true");
     res.setHeader("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
