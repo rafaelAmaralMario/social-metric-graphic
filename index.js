@@ -6,9 +6,6 @@ const PORT = process.env.PORT || 8080
 const server = require('./server/')
 const client = require('./client/')
 
-
-
-
 // initializing the application
 const app = express()
 

@@ -8,9 +8,10 @@
     "run-server": "nodemon index.js",
     "run-client": "cd client && npm run dev",
     "dev": "concurrently --kill-others-on-fail \"npm run run-server\" \"npm run run-client\"",
-    "install-client": "cd client && npm i",
+    "install-client": "cd client && npm i && cd..",
     "install-server": "npm i",
-    "install-project": "npm run install-server && npm run install-client"
+    "install-project": "npm run npm run install-client && install-server",
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
