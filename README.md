@@ -1,7 +1,7 @@
 
 # Social Metric Graphic
 
-Project in Node.Js and Vue.js that will display a Graphic getting the values from a Rest API.
+Project in Node.Js and Vue.js that will display a Graphic getting the values from a local file.
 
 ## Getting Started
 
