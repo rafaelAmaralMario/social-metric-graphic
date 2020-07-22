@@ -8,7 +8,7 @@
     "run-server": "nodemon index.js",
     "run-client": "cd client && npm run dev",
     "dev": "concurrently --kill-others-on-fail \"npm run run-server\" \"npm run run-client\"",
-    "install-client": "cd client && npm i && cd..",
+    "install-client": "cd client && npm i && cd ..",
     "install-server": "npm i",
     "install-project": "npm run install-client && npm run install-server",
     "build": "cd client && npm run build"
