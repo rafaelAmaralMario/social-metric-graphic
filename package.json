@@ -32,7 +32,7 @@
   "homepage": "https://github.com/rafaelAmaralMario/social-metric-graphic#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "install": "^0.12.1",
     "npm": "^6.4.1",
